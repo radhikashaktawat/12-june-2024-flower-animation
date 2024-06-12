@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            width: 400px;
+            height: 400px;
+            background-color: gray;
+            margin: 150px auto;
+            position: relative;
+            transform: rotate(0deg);
+            transition: all 1.5s linear;
+        }
+        .parent:hover{
+            transform: rotate(360deg);
+
+        }
+
+        .common{
+            width: 200px;
+            height: 200px;
+        }
+
+        .child1{
+            background-color: red;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            border-bottom-left-radius: 250px;
+            border-top-right-radius:250px ;
+        }
+
+        .child2{
+            background-color: lawngreen;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            border-top-left-radius: 250px;
+            border-bottom-right-radius:250px ;
+        }
+
+        .child3{
+            background-color: purple;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            border-top-left-radius: 250px;
+            border-bottom-right-radius:250px ;
+        }
+        .child4{
+            background-color:darkgreen;
+            position: absolute;
+             top: 0px;
+             left: 0px;
+             border-bottom-left-radius: 250px;
+             border-top-right-radius:250px ;
+        }
+
+        .cmn{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-bottom-left-radius: 250px;
+            border-top-right-radius: 250px;
+            transform-origin: right  bottom;
+        }
+       .child5{
+        background-color: darkgoldenrod;
+        transform: rotate(11.25deg);
+       }
+       .child6{
+        background-color: darkgreen;
+        transform: rotate(22.5deg);
+       }
+       .child7{
+        background-color: orchid;
+        transform: rotate(33.75deg);
+       }
+       .child8{
+        background-color: darkred;
+        transform: rotate(45deg);
+       }
+       .child9{
+        background-color: mediumspringgreen;
+        transform: rotate(56.25deg);
+       }
+       .child10{
+        background-color: navy;
+        transform: rotate(67.5deg);
+       }
+       .child11{
+        background-color: rebeccapurple;
+        transform: rotate(78,75deg);
+       }
+       .child12{
+        background-color: chartreuse;
+        transform: rotate(90deg);
+       }
+       .child13{
+        background-color: salmon;
+        transform: rotate(101.25deg);
+       }
+       .child14{
+        background-color: aquamarine;
+        transform: rotate(112.5deg);
+       }
+       .child15{
+        background-color: brown;
+        transform: rotate(123.75deg);
+       }
+       .child16{
+        background-color: forestgreen;
+        transform: rotate(135deg);
+       }
+       .child17{
+        background-color: cornflowerblue;
+        transform: rotate(146.25deg);
+       }
+       .child18{
+        background-color: darkorange;
+        transform: rotate(157.5deg);
+       }
+       .child19{
+        background-color: yellow;
+        transform: rotate(168.75deg);
+       }
+       .child20{
+        background-color: aqua;
+        transform: rotate(180deg);
+       }
+       .child21{
+        background-color: violet;
+        transform: rotate(191.25deg);
+       }
+       .child22{
+        background-color:purple;
+        transform: rotate(202.5deg);
+       }
+       .child23{
+        background-color:darkcyan;
+        transform: rotate(213.75deg);
+       }
+       .child24{
+        background-color:saddlebrown;
+        transform: rotate(225deg);
+       }
+       .child25{
+        background-color: teal;
+        transform: rotate(236.25deg);
+       }
+       .child26{
+        background-color:indigo;
+        transform: rotate(247.5deg);
+       }
+       .child27{
+        background-color: olive;
+        transform: rotate(258.75deg);
+       }
+       .child28{
+        background-color: green;
+        transform: rotate(270deg);
+       }
+       .child29{
+        background-color: red;
+        transform: rotate(281.25deg);
+       }
+       .child30{
+        background-color: yellowgreen;
+        transform: rotate(292.5deg);
+       }
+       .child31{
+        background-color:palevioletred;
+        transform: rotate(303.75deg);
+       } 
+        .child32{
+        background-color: magenta;
+        transform: rotate(315deg);
+       }
+       .child33{
+        background-color: darkorange;
+        transform: rotate(326.25deg);
+       }
+       .child34{
+        background-color: red;
+        transform: rotate(337.5deg);
+       }
+       .child33{
+        background-color: darkblue;
+        transform: rotate(348.75deg);
+       }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="common child1"></div>
+        <div class="common child2"></div>
+        <div class="common child3"></div>
+        <div class="common child4"></div>
+        <div class="common cmn child5"></div>
+        <div class="common cmn child6"></div>
+        <div class="common cmn child7"></div>
+        <div class="common cmn child8"></div>
+        <div class="common cmn child9"></div>
+        <div class="common cmn child10"></div>
+        <div class="common cmn child11"></div>
+        <div class="common cmn child12"></div>
+        <div class="common cmn child13"></div>
+        <div class="common cmn child14"></div>
+        <div class="common cmn child15"></div>
+        <div class="common cmn child16"></div>
+        <div class="common cmn child17"></div>
+        <div class="common cmn child18"></div>
+        <div class="common cmn child19"></div>
+        <div class="common cmn child20"></div>
+        <div class="common cmn child21"></div>
+        <div class="common cmn child22"></div>
+        <div class="common cmn child23"></div>
+        <div class="common cmn child24"></div>
+        <div class="common cmn child25"></div>
+        <div class="common cmn child26"></div>
+        <div class="common cmn child27"></div>
+        <div class="common cmn child28"></div>
+        <div class="common cmn child29"></div>
+        <div class="common cmn child30"></div>
+        <div class="common cmn child31"></div>
+        <div class="common cmn child32"></div>
+        <div class="common cmn child33"></div>
+        <div class="common cmn child34"></div>
+        <div class="common cmn child35"></div>
+        
+    </div>
+
+</body>
+</html>
